@@ -1,0 +1,1 @@
+export { CookieDocs } from './CookieDocs'

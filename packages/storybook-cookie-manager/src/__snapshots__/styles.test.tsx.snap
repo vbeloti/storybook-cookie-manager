@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`styles should render ButtonWrapper correctly 1`] = `
+<div
+  class="css-ya232j"
+/>
+`;
+
+exports[`styles should render Content correctly 1`] = `
+<div
+  class="css-152opwo"
+/>
+`;
+
+exports[`styles should render Input correctly 1`] = `<input />`;
+
+exports[`styles should render Label correctly 1`] = `<form />`;
+
+exports[`styles should render Table correctly 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td>
+        test
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`styles should render TableWrapper correctly 1`] = `
+<div
+  class="css-haw22i"
+/>
+`;

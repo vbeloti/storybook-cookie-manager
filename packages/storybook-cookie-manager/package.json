@@ -1,0 +1,33 @@
+{
+  "name": "storybook-cookie-manager",
+  "version": "0.0.0",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./manager": "./dist/manager.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "build": "yarn clean && rollup -c",
+    "dev": "rollup -c --watch",
+    "lint": "eslint . --max-warnings 0",
+    "clean": "rm -rf dist",
+    "test": "jest --selectProjects=cookie-manager --config=../../jest.config.ts"
+  },
+  "dependencies": {
+    "js-cookie": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6"
+  }
+}

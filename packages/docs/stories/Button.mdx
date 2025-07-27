@@ -1,0 +1,17 @@
+import { Meta, Story, Canvas } from '@storybook/blocks'
+import { CookieDocs } from 'storybook-cookie-manager'
+import { Title, Subtitle, Description, Controls, Primary, Unstyled } from '@storybook/addon-docs/blocks'
+
+import * as ButtonStories from './button.stories'
+
+<Meta of={ButtonStories} />
+
+<Title />
+
+<Description />
+
+<Canvas layout="fullscreen" of={ButtonStories.Default} sourceState="none" className="canvas-btn" />
+
+<Controls sort="alpha" />
+
+<CookieDocs of={ButtonStories.ButtonWithCookies} />

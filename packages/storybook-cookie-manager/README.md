@@ -1,7 +1,7 @@
 # 🚀 storybook-cookie-manager 🍪
 
 <div align="center">
-  <img src="./github/storybook-cookie-manager.gif" alt="A video of the Storybook Cookie Manager showing how to edit cookies directly from the addon tab" />
+  <img src="https://raw.githubusercontent.com/vbeloti/storybook-cookie-manager/refs/heads/main/.github/storybook-cookie-manager.gif" alt="A video of the Storybook Cookie Manager showing how to edit cookies directly from the addon tab" />
 </div>
 
 [Storybook Cookie Manager Demo](https://storybook-cookie-manager.pages.dev)

@@ -5,13 +5,23 @@
   "description": "Addon for managing cookies in Storybook",
   "author": "vbeloti <vinicius.beloti@gmail.com>",
   "keywords": [
-    "storybook",
-    "storybook-addon",
+    "storybook-addons",
+    "data-state",
+    "mocking",
     "cookie",
-    "cookies",
-    "cookie-manager",
-    "cookie-manager-addon"
+    "cookies"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vbeloti/storybook-cookie-manager"
+  },
+  "storybook": {
+    "displayName": "Cookie Manager",
+    "supportedFrameworks": [
+      "react"
+    ],
+    "icon": "https://raw.githubusercontent.com/vbeloti/storybook-cookie-manager/refs/heads/main/.github/sb.png"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

@@ -1,6 +1,6 @@
 {
   "name": "storybook-cookie-manager",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "description": "Addon for managing cookies in Storybook",
   "author": "vbeloti <vinicius.beloti@gmail.com>",

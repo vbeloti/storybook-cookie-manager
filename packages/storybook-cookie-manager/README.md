@@ -39,7 +39,6 @@ Next, register **storybook-cookie-manager** in your Storybook configuration file
 
 ```javascript
 export default {
-  stories: ['../stories/**/*.mdx', '../stories/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     // Other addons...
     getAbsolutePath('storybook-cookie-manager'),
@@ -58,9 +57,7 @@ To define cookies for a component, use the `parameters.cookies` property in your
 Here’s an example of how to define cookies for a `Button` component:
 
 ```typescript
-const meta: Meta<typeof Button> = {
-  title: 'Example/Button',
-  component: Button,
+export const Button: Story = {
   parameters: {
     cookies: {
       user_preference: 'dark_mode',
